@@ -1,7 +1,6 @@
 #content{
     max-width: 1600px;
     margin: 0 auto;
-
 }
 nav a{
     text-align: center;
@@ -14,8 +13,8 @@ nav a{
 #hero-msg h4{
     text-align: center;
 }
-.hero-img{
-    margin: auto, 0;
+.hero-box{
+    text-align: center;
 }
 .button-box{
     text-align: center;
