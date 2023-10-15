@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Nunito:ital,wght@0,400;0,700;1,400&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -6,12 +8,15 @@ nav a{
     text-align: center;
     color: white;
     text-decoration: none;
+    font-family: 'Nunito', Verdana, Tahoma, sans-serif;
 }
 #hero-msg h1{
     text-align: center;
+    font-family: 'Roboto Slab', Georgia, Times, serif;
 }
 #hero-msg h4{
     text-align: center;
+    font-family: 'Roboto Slab', Georgia, Times, serif;
 }
 .hero-box{
     text-align: center;
@@ -30,6 +35,7 @@ body{
 }
 header{
     background-color: #023618;
+    font-family: 'Roboto Slab', Georgia, Times, serif;
 }
 nav a:hover{
     background-color: #cae9ff;
@@ -39,6 +45,8 @@ nav a:hover{
     background-color: #023618;
     color: white;
     text-decoration: none;
+    font-family: 'Nunito', Verdana, Tahoma, sans-serif;
+
 }
 .book:hover, .join:hover{
     background-color: #79b46d;
@@ -53,27 +61,38 @@ nav a:hover{
 }
 .msg h2{
     color: white;
+    font-family: 'Roboto Slab', Georgia, Times, serif;
 }
 .msg p{
     color: white;
+    font-family: 'Nunito', Verdana, Tahoma, sans-serif;
 }
 footer{
     background-color: #023618;
     color: white;
+    font-family: 'Nunito', Verdana, Tahoma, sans-serif;
+
 }
 footer a{
     color: white;
     text-decoration: none;
+    font-family: 'Nunito', Verdana, Tahoma, sans-serif;
+
 }
 footer p a:hover{
     color: #79b46d;
     text-decoration: underline;
+    font-family: 'Nunito', Verdana, Tahoma, sans-serif;
+
 }
 footer p{
     font-size: 1.2em;
+    font-family: 'Nunito', Verdana, Tahoma, sans-serif;
+
 }
 .home-title{
     color: black;
+    font-family: 'Roboto Slab', Georgia, Times, serif;
 }
 .icon{
     width: 80px;
