@@ -35,7 +35,6 @@ body{
 }
 header{
     background-color: #023618;
-    font-family: 'Roboto Slab', Georgia, Times, serif;
 }
 nav a:hover{
     background-color: #cae9ff;
@@ -43,7 +42,7 @@ nav a:hover{
 }
 .book, .join{
     background-color: #023618;
-    color: white;
+    color: rgb(95, 95, 212);
     text-decoration: none;
     font-family: 'Nunito', Verdana, Tahoma, sans-serif;
 
@@ -74,7 +73,7 @@ footer{
 
 }
 footer a{
-    color: white;
+    color: rgb(95, 95, 212);
     text-decoration: none;
     font-family: 'Nunito', Verdana, Tahoma, sans-serif;
 
