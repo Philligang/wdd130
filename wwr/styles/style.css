@@ -116,6 +116,9 @@ footer p{
     width: 80px;
     padding-top: 10px;
 }
+.logo{
+    width: 80px;
+}
 #logo_link{
     padding-top: 5px;
 }
@@ -127,4 +130,7 @@ footer .social img{
 }
 .card-img{
     border: 10px solid black;
+}
+#hero-img{
+    width: 100%;
 }
