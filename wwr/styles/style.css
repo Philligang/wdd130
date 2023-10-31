@@ -12,14 +12,17 @@ body{
     margin: 0;
     padding: 0;
 }
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 nav a{
     text-align: center;
     color: white;
     text-decoration: none;
     font-family: 'Nunito', Verdana, Tahoma, sans-serif;
     padding: 35px;
-    display: flex;
-    justify-content: space-around;
 }
 
 #hero{
