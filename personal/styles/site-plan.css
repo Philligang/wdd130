@@ -36,6 +36,14 @@ body {
   font-size: 18px;
   text-align: center;
 }
+.gallery{
+  width: 200px;
+  height: 300px;
+}
+.technique{
+  width: 250px;
+  height: 300px;
+}
 img {
   display: block;
   margin: 0 auto;
