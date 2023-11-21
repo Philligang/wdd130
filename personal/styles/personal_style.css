@@ -1,0 +1,79 @@
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+header {
+    background-color: #984447;
+    display: grid;
+    grid-template-rows: 280px;
+    grid-template-columns: 1fr 1fr 1fr
+    
+}
+#logo{
+    padding-left: 15px;
+    align-self: center;
+    transform: scale(0.5);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a{
+    text-align: center;
+    font-size: 30px;
+    color: #deb841;
+    text-decoration: none;
+    font-family: Garamond, Georgia;
+}
+nav a:hover{
+    background-color: #deb841;
+    color: #0081a7;
+}
+body{
+    background-color: #4c2a85;
+    margin: 0;
+    padding: 0;
+}
+#hero{
+    display: grid;
+    grid-template-rows: 275px 275px 296px;
+    grid-template-columns: 400px 400px 600px 200px;
+}
+#hero section{
+    grid-row: 2;
+    grid-column: 3;
+    text-align: center;
+    font-size: x-large;
+    color: black;
+}
+main p{
+    margin: 40px;
+    color: #deb841;
+    font-size: 26px;
+    text-align: center;
+}
+#unfinished{
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+footer{
+    background-color: #984447;
+    margin-top: 100px;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+}
+footer p{
+    color: #deb841;
+}
+#site-plan:hover{
+    color: #0081a7;
+    background-color: #deb841;
+}
+#contact:hover{
+    background-color: #deb841;
+}
