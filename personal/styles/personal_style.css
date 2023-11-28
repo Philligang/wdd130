@@ -1,3 +1,6 @@
+a {
+    text-decoration: none;
+}
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -71,8 +74,13 @@ footer{
     align-items: center;
     font-size: 24px;
 }
-footer p{
+footer p, footer a{
     color: #deb841;
+    padding: 10px;
+}
+footer a:hover{
+    color: #0081a7;
+    background-color: #deb841;
 }
 #site-plan:hover{
     color: #0081a7;
