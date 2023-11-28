@@ -2,13 +2,13 @@ a {
     text-decoration: none;
 }
 #content{
-    max-width: 1600px;
+    max-width: 100%;
     margin: 0 auto;
 }
 header {
     background-color: #984447;
     display: grid;
-    width: 1500px;
+    width: 100%;
     grid-template-rows: 280px;
     grid-template-columns: 1fr 1fr 1fr
     
@@ -39,6 +39,7 @@ body{
     background-color: #4c2a85;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 #hero{
     display: grid;
@@ -68,7 +69,7 @@ footer{
     background-color: #984447;
     margin-top: 100px;
     padding: 30px 50px;
-    width: 1400px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
