@@ -207,6 +207,31 @@ footer .social img{
     display: grid;
     gap: 15px;
 }
+.salmon-river h2, .salmon-river p{
+    background-color: tan;
+    margin: 0;
+    padding: 10px;
+}
+.salmon-river p{
+    margin-bottom: 20px;
+}
+
+.gray-canyon h2, .gray-canyon p{
+    background-color: tan;
+    margin: 0;
+    padding: 10px;
+}
+.gray-canyon p{
+    margin-bottom: 20px;
+}
+.grand-canyon h2, .grand-canyon p{
+    background-color: tan;
+    margin: 0;
+    padding: 10px;
+}
+.grand-canyon p{
+    margin-bottom: 20px;
+}
 
 /* Contact us CSS */
 
