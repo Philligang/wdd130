@@ -62,13 +62,14 @@ main p{
 }
 #unfinished{
     align-items: center;
+    width: 100px;
     margin: 0;
     padding: 0;
 }
 footer{
     background-color: #984447;
     margin-top: 100px;
-    padding: 30px 50px;
+    padding-top: 35px 0px;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -89,4 +90,96 @@ footer a:hover{
 }
 #contact:hover{
     background-color: #deb841;
+}
+/* Gallery */
+#pg2logo{
+    padding-left: 15px;
+    align-self: center;
+    transform: scale(0.5);
+}
+#title{
+    color: #deb841;
+    font-size: x-large;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.gallery-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "p1 anubis" "giant p2";
+}
+#p1, #p2{
+    background-color: #984447;
+    padding: 15px;
+    margin: 0;
+}
+#anubis{
+    grid-area: anubis;
+
+}
+#anubis-img{
+    display: flex;
+    height: 100%;
+    margin-left: 8% ;
+}
+#giant-img{
+    height: 100%;
+    grid-area: giant;
+    margin-left: 5%;
+}
+#p2{
+    grid-area: p2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#p1{
+    grid-area: p1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#grid2_container{
+    display: flex;
+}
+#grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    width: 100%;
+}
+#grid2>img{
+    justify-self: center;
+}
+#pic1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: center;
+}
+#pic2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    
+}
+#pic3{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+#pic4{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+#pic5{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+#pic6{
+    grid-column: 3/4;
+    grid-row: 2/3;
 }

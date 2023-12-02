@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles/personal_style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maynes Miniatures</title>
@@ -8,48 +9,61 @@
 <body>
     <header>
         <nav>
-            <a href="/personal/index.html">Home</a>
-            <a href="/personal/gallery.html">Gallery</a>
+            <a href="index.html">Home</a>
+            <a href="gall.html">Gallery</a>
         </nav>
-        <a href="/personal/index.html">
+        <a id="pg2logo" href="index.html">
             <img src="personal_logo.png" alt="Maynes Miniatures Logo">
         </a> 
         <nav>
-            <a href="/personal/techniques.html">Techniques</a>
-            <a href="/personal/contact_us.html">Contact Us</a>
+            <a href="techniques.html">Techniques</a>
+            <a href="contact_us.html">Contact Us</a>
         </nav>
     </header>
-    <section>
-        <h1>Gallery</h1>
-        <h3>Welcome to the Gallery</h1>
-    </section>
-    <main>
+    <div id="title">
         <section>
-            <p>All of these are my own personal projects, and I'd be happy to walk you through my thoughts on colors and layering. In order to create a cohesive looking miniature you must first decide which colors you want to work with. I suggest 1-2 main colors with a couple secondary colors and an accent color or 2. While you do want to make sure the colors work well together, you will want to ensure that there is also some contrast between the primary and secondary colors, this makes your mini POP.</p>
-            
-            <img src="anubis.jpg" alt="Anubis Mini">
+            <h1>Welcome to the Gallery</h1>
         </section>
-
-        <section>
+    </div>
+    <main class="gallery-grid">
+        
+        <div id="p1">
+            <p>All of these are my own personal projects, and I'd be happy to walk you through my thoughts on colors and layering. In order to create a cohesive looking miniature you must first decide which colors you want to work with. I suggest 1-2 main colors with a couple secondary colors and an accent color or 2. While you do want to make sure the colors work well together, you will want to ensure that there is also some contrast between the primary and secondary colors, this makes your mini POP.
+            </p>
+        </div>
+        <div id="anubis">
+            <img id="anubis-img" src="rsz_anubis2.jpg" alt="Anubis Mini">
+        </div>
+        <div id="p2">
             <p>When it comes to layering I generally suggest starting with sections of the mini that are potentially difficult to reach, it's much easier to fix any mistakes when most of the mini is unpainted so lets take care of those difficult areas to reach. After the difficult spots have been handled, you want to start on the lowest layers of the model. For example when painting the giant you see in this gallery, I started with the skin tone, followed by the chainmail, followed by the accent pieces of his armor like the sash and thigh guards. It's important to build good habits when first starting the hobby, picking good supporting colors that also have decent contrast and also learning how to paint in layers are a great place to start.</p>
-
-            <img src="giant.jpg" alt="Frost Giant Mini">
-        </section>
-
+        </div>
+        <div id="giant">
+            <img id="giant-img" src="rsz_giant.jpg" alt="Frost Giant Mini">
+        </div>
     </main>
+    <div id="grid2_container">
+        <section id="grid2">
+            <img id="pic1" src="rsz_dwarf.jpg" alt="dwarf">
+            <img id="pic2" src="rsz_dwarf.jpg" alt="dwarf">
+            <img id="pic3" src="rsz_dwarf.jpg" alt="dwarf">
+            <img id="pic4" src="rsz_dwarf.jpg" alt="dwarf">
+            <img id="pic5" src="rsz_dwarf.jpg" alt="dwarf">
+            <img id="pic6" src="rsz_dwarf.jpg" alt="dwarf">
+        </section>
+    </div>
     <footer>
         <p>Maynes Miniatures &copy; 2023 - Jacob Maynes</p>
-        <p><a href="/personal/site-plan.html">Site Plan</a></p>
-        <p><a href="/personal/contact_us.html">Contact Us</a></p>
+        <p><a href="site-plan.html">Site Plan</a></p>
+        <p><a href="contact_us.html">Contact Us</a></p>
         <div>
             <a href="https://facebook.com" target="_blank">
-                <img src="/wwr/images/facebook.png" alt="Facebook logo">
+                <img src="facebook.png" alt="Facebook logo">
             </a>
             <a href="https://twitter.com" target="_blank">
-                <img src="/wwr/images/twitter.png" alt="Twitter logo">
+                <img src="twitter.png" alt="Twitter logo">
             </a>
             <a href="https://instagram.com" target="_blank">
-                <img src="/wwr/images/instagram.png" alt="Instagram logo">
+                <img src="instagram.png" alt="Instagram logo">
             </a>
         </div>
     </footer>
