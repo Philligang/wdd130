@@ -144,6 +144,7 @@ footer a:hover{
 }
 #grid2_container{
     display: flex;
+    margin-top: 20px;
 }
 #grid2{
     display: grid;
