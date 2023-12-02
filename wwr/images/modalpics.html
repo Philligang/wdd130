@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="modalpics.css">
+    <!-- <link rel="stylesheet" href="modalpics.js"> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>caption</h2>
+    <p>text</p>
+    <img id="myImg" src="mountains.jpg" alt="mountains" style="width:100%; max-width:500px">
+
+    <div id="myModal" class="modal">
+        <span class="close"> &times;</span>
+        <img class="modal-content" id="img">
+        <div id="caption"></div>
+    </div>
+    
+    <script>
+        var modal = document.getElementById("myModal");
+        var img = document.getElementById("myImg");
+
+        var modalImg = document.getElementById("img");
+        var captionText  = document.getElementById("caption");
+        img.onclick = function(){
+
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+        
+        var span = document.getElementsByClassName("close")[0];
+        
+        span.onclick = function() {
+        modal.style.display = "none";
+        }
+    
+    </script>
+</body>
+</html>
