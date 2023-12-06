@@ -30,6 +30,7 @@ nav a{
     text-decoration: none;
     font-family: Garamond, Georgia;
     padding: 10px;
+    border-radius: 5px;
 }
 nav a:hover{
     background-color: #deb841;
@@ -79,6 +80,7 @@ footer{
 footer p, footer a{
     color: #deb841;
     padding: 10px;
+    border-radius: 5px;
 }
 footer a:hover{
     color: #0081a7;
@@ -117,11 +119,15 @@ footer a:hover{
 }
 #anubis{
     grid-area: anubis;
-
+    justify-self: center;
+    padding-right: 23%;
 }
 #anubis-img{
-    display: flex;
     height: 100%;
+}
+#giant{
+    justify-self: center;
+    padding-right: 1%;
 }
 #giant-img{
     height: 100%;
@@ -155,6 +161,7 @@ footer a:hover{
 }
 #grid2>img{
     justify-self: center;
+    border-radius: 5px;
 }
 #pic1{
     grid-column: 1/2;
@@ -181,3 +188,4 @@ footer a:hover{
     grid-column: 3/4;
     grid-row: 2/3;
 }
+/* Techniques page */
