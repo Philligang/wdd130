@@ -32,7 +32,7 @@ nav a{
     padding: 10px;
     border-radius: 5px;
 }
-nav a:hover{
+.links:hover{
     background-color: #deb841;
     color: #0081a7;
 }
@@ -198,4 +198,18 @@ footer a:hover{
     grid-column: 3/4;
     grid-row: 2/3;
 }
-/* Techniques page */
+.CUlogo{
+    align-self: center;
+    transform: scale(0.5);
+}
+.CUform{
+    text-align: center;
+    color: #deb841;
+}
+.CUUL{
+    list-style-type: none;
+    background-color: #984447;
+    /* width: 25%; */
+    padding: 75px;
+    margin: 200px;
+}
