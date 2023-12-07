@@ -121,6 +121,11 @@ h2{
     justify-self: center;
     border-radius: 10px;
 }
+.picture2{
+    grid-column: 2/3;
+    justify-self: center;
+    border-radius: 10px;
+}
 p{
     background-color: #984447;
     padding: 15px;

@@ -45,7 +45,11 @@ body{
 #hero{
     display: grid;
     grid-template-rows: 275px 275px 296px;
-    grid-template-columns: 400px 400px 600px 200px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#hero-pic{
+    width: 100%;
+    grid-column: 1/5;
 }
 #hero section{
     grid-row: 2;
@@ -62,10 +66,16 @@ main p{
     align-items: center;
 }
 #unfinished{
-    align-items: center;
-    width: 100px;
-    margin: 0;
-    padding: 0;
+    align-self: center;
+    width: 100%;
+}
+.projects{
+    width: 100%;
+}
+#words{
+    background-color: #984447;
+    padding: 15px;
+    border-radius: 5px;
 }
 footer{
     background-color: #984447;
